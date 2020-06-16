@@ -150,4 +150,13 @@ export default {
 .drawBtn:disabled {
   background-color: gray;
 }
+@media only screen and (max-device-width: 901px) {
+  .drawBack {
+    width: 400px;
+    margin-top: 50px;
+  }
+  .drawNum {
+    font-size: 120px;
+  }
+}
 </style>

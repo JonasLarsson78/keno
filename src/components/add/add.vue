@@ -211,4 +211,18 @@ export default {
 .addListHeader {
   margin-bottom: 5px;
 }
+@media only screen and (max-device-width: 901px) {
+  .addHeader {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .addList {
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
 </style>

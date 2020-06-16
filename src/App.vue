@@ -20,10 +20,19 @@ export default {
   font-family: 'Roboto Mono', monospace;
   background-image: url(./assets/back.png);
   background-size: 100%;
+  background-repeat: no-repeat;
   background-position-y: -300px;
   height: calc(100vh - 20px);
   width: calc(100vw - 20px);
   padding: 10px;
   text-align: center;
+}
+@media only screen and (max-device-width: 901px) {
+  #app {
+    background-image: none;
+    background-color: lightseagreen;
+    width: 470px;
+    height: 1040px;
+  }
 }
 </style>
